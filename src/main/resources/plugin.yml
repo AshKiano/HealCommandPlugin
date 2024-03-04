@@ -1,0 +1,9 @@
+name: HealCommandPlugin
+version: '${project.version}'
+main: com.ashkiano.healcommandplugin.HealCommandPlugin
+api-version: '1.16'
+authors: [ AshKiano ]
+commands:
+  heal:
+    description: Fully restores your health.
+    usage: /<command>
