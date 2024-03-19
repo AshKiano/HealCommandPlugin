@@ -9,7 +9,8 @@ public class HealCommandPlugin extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        getLogger().info("HealCommandPlugin has been enabled!");
+        Metrics metrics = new Metrics(this, 21267);
+        this.getLogger().info("Thank you for using the HealCommandPlugin plugin! If you enjoy using this plugin, please consider making a donation to support the development. You can donate at: https://donate.ashkiano.com");
     }
 
     @Override
